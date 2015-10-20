@@ -1,0 +1,6 @@
+>lcl|NC_012967.1_cdsid_YP_003044495.1 [gene=pspD] [protein=peripheral inner membrane phage-shock protein] [protein_id=YP_003044495.1] [location=1367761..1367982]
+MNTRWQQAGQKVKPGFKLAGKLVLLTALRYGPAGVAGWAIKSVARRPLKMLLAVALEPLLSRAANKLAQR
+YKR
+>lcl|NC_003197.1_cdsid_NP_460645.1 [gene=pspD] [protein=inner membrane phage-shock protein] [protein_id=NP_460645.1] [location=complement(1780863..1781081)]
+MNTRWQRAGQKVKPGFKIAGKLVLLTALRYGPAGVAGWAVKSVARRPLKMLLAFALEPVLRKAANKISQR
+YK

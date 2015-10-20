@@ -1,0 +1,4 @@
+>lcl|NC_012967.1_cdsid_YP_003043817.1 [gene=tatE] [protein=twin arginine translocase protein E] [protein_id=YP_003043817.1] [location=641530..641733]
+MGEISITKLLVVAALVVLLFGTKKLRTLGGDLGAAIKGFKKAMNDDDAAAKKDADVDLQAEKLSHKE
+>lcl|NC_003197.1_cdsid_NP_459624.1 [gene=tatE] [protein=Sec-independent protein translocase protein TatE] [protein_id=NP_459624.1] [location=694573..694776]
+MGEISITKLLVVAALVVLLFGTKKLRTLGGDLGTAIKGFKKAMNDEDAGVKKDVDGSVQAEKLSHKE

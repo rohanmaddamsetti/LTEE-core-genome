@@ -1,0 +1,6 @@
+>lcl|NC_012967.1_cdsid_YP_003045506.1 [gene=ptsH] [protein=PTS system phosphohistidinoprotein-hexose phosphotransferase subunit Hpr] [protein_id=YP_003045506.1] [location=2462490..2462747]
+MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAEGEDE
+QKAVEHLVKLMAELE
+>lcl|NC_003197.1_cdsid_NP_461366.1 [gene=ptsH] [protein=PTS system phosphohistidinoprotein-hexose phosphotransferase Hpr] [protein_id=NP_461366.1] [location=2544586..2544843]
+MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAEGEDE
+QKAVEHLVKLMAELE

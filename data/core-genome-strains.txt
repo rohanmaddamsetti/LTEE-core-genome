@@ -1,0 +1,62 @@
+## These 60 strains were used to calculate a set of panorthologs, representing the core genome of E. coli.
+NCBI Refseq ID , Strain name, lifestyle
+NC_000913, Escherichia coli K-12 MG1655, commensal
+NC_002655, Escherichia coli O157:H7 str. EDL933, pathogen
+NC_002695, Escherichia coli O157:H7 str. Sakai, pathogen
+NC_004431, Escherichia coli CFT073, pathogen
+NC_007779, Escherichia coli str. K-12 substr. W3110, commensal
+NC_007946, Escherichia coli UTI89, pathogen
+NC_008253, Escherichia coli 536, pathogen
+NC_008563, Escherichia coli APEC O1, pathogen
+NC_009800, Escherichia coli HS, commensal
+NC_009801, Escherichia coli E24377A, pathogen
+NC_010468, Escherichia coli ATCC 8739, commensal
+NC_010473, Escherichia coli str. K-12 substr. DH10B, commensal
+NC_010498, Escherichia coli SMS-3-5, commensal
+NC_011353, Escherichia coli O157:H7 str. EC4115, pathogen
+NC_011415, Escherichia coli SE11, commensal
+NC_011601, Escherichia coli O127:H6 str. E2348/69, pathogen
+NC_011741, Escherichia coli IAI1, pathogen
+NC_011742, Escherichia coli S88, pathogen
+NC_011745, Escherichia coli ED1a, commensal
+NC_011748, Escherichia coli 55989, pathogen
+NC_011750, Escherichia coli IAI39, pathogen
+NC_011751, Escherichia coli UMN026, pathogen
+NC_011993, Escherichia coli LF82, pathogen
+NC_012759, Escherichia coli BW2952, commensal
+NC_012892, Escherichia coli BL21(DE3), commensal
+NC_012947, Escherichia coli 'BL21-Gold(DE3)pLysS AG', commensal
+NC_012967, Escherichia coli B str. REL606, commensal
+NC_012971, Escherichia coli BL21(DE3), commensal
+NC_013008, Escherichia coli O157:H7 str. TW14359, pathogen
+NC_013353, Escherichia coli O103:H2 str. 12009, pathogen
+NC_013361, Escherichia coli O26:H11 str. 11368, pathogen
+NC_013364, Escherichia coli O111:H- str. 11128, pathogen
+NC_013654, Escherichia coli SE15, commensal
+NC_013941, Escherichia coli O55:H7 str. CB9615, pathogen
+NC_016902, Escherichia coli KO11FL, commensal
+NC_017625, Escherichia coli DH1, commensal
+NC_017626, Escherichia coli 042, pathogen
+NC_017628, Escherichia coli IHE3034, commensal
+NC_017631, Escherichia coli ABU 83972, commensal
+NC_017632, Escherichia coli UM146, pathogen
+NC_017633, Escherichia coli ETEC H10407, pathogen
+NC_017634, Escherichia coli O83:H1 str. NRG 857C, pathogen
+NC_017635, Escherichia coli W, commensal
+NC_017638, Escherichia coli DH1, commensal
+NC_017641, Escherichia coli UMNK88, pathogen
+NC_017644, Escherichia coli NA114, pathogen
+NC_017646, Escherichia coli O7:K1 str. CE10, pathogen
+NC_017651, Escherichia coli str. 'clone D i2', pathogen
+NC_017652, Escherichia coli str. 'clone D i14', pathogen
+NC_017656, Escherichia coli O55:H7 str. RM12579, pathogen?
+NC_017660, Escherichia coli KO11FL, commensal
+NC_017663, Escherichia coli P12b, pathogen
+NC_017664, Escherichia coli W, commensal
+NC_017906, Escherichia coli Xuzhou21, pathogen
+NC_018650, Escherichia coli O104:H4 str. 2009EL-2050, pathogen?
+NC_018658, Escherichia coli O104:H4 str. 2011C-3493, pathogen?
+NC_018661, Escherichia coli O104:H4 str. 2009EL-2071, pathogen?
+NC_020163, Escherichia coli APEC O78, pathogen
+NC_020518, Escherichia coli str. K-12 substr. MDS42 DNA, pathogen?
+NC_022364, Escherichia coli LY180, commensal

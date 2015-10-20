@@ -1,0 +1,6 @@
+>lcl|NC_012967.1_cdsid_YP_003044106.1 [gene=infA] [protein=translation initiation factor IF-1] [protein_id=YP_003044106.1] [location=complement(943283..943501)]
+MAKEDNIEMQGTVLETLPNTMFRVELENGHVVTAHISGKMRKNYIRILTGDKVTVELTPYDLSKGRIVFR
+SR
+>lcl|NC_003197.1_cdsid_NP_459929.1 [gene=infA] [protein=translation initiation factor IF-1] [protein_id=NP_459929.1] [location=complement(1030347..1030565)]
+MAKEDNIEMQGTVLETLPNTMFRVELENGHVVTAHISGKMRKNYIRILTGDKVTVELTPYDLSKGRIVFR
+SR

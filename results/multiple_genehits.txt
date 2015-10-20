@@ -1,0 +1,25 @@
+locus_tag	nonsynonymous	gene	uniprot_notes
+ECB_03110	3	mreB	Involved in formation of the rod shape of the cell.
+ECB_04266	5	nadR	Regulates NAD biosynthesis.
+ECB_03035	2	infB	One of the essential components for the initiation of protein synthesis.
+ECB_03156	3	rplF	Part of the 50S ribosomal subunit.
+ECB_03890	5	iclR	Acetate operon repressor; regulates the glyoxylate bypass operon.	
+ECB_04277	4	arcA	Member of the two-component regulatory system ArcB/ArcA.Represses a wide variety of aerobic enzymes under anaerobic conditions.
+ECB_00002	3	thrA	Amino acid biosynthesis
+ECB_01645	7	pykF	Pyruvate kinase I: ATP + pyruvate = ADP + phosphoenolpyruvate.
+ECB_01917	3	yeeF	Inner cell membrane; Putrescine importer
+ECB_04214	3	hsdS	Restriction enzyme specificity protein. The M and S subunits together form a methyltransferase (MTase) that methylates two adenine residues in complementary strands of a bipartite DNA recognition sequence.
+ECB_03906	2	malE	Involved in the high-affinity maltose membrane transport system malEFGK. Initial receptor for the active transport of and chemotaxis toward maltooligosaccharides.
+ECB_03939	3	actP	Transports acetate. Also able to transport glycolate.
+ECB_03816	6	hslU	ATPase subunit of a proteasome-like degradation complex; this subunit has chaperone activity.
+ECB_01687	2	infC	IF-3 binds to the 30S ribosomal subunit and shifts the equilibrum between 70S ribosomes and their 50S and 30S subunits in favor of the free subunits, thus enhancing the availability of 30S subunits on which protein synthesis initiation begins.
+ECB_03270	3	malT	Positively regulates the transcription of the maltose regulon whose gene products are responsible for uptake and catabolism of malto-oligosaccharides. Binds and recognizes a DNA motif (called the malT box): 5'-GGA[TG]GA-3'.
+ECB_03762	2	yihP	Inner membrane symporter yihP
+ECB_03118	2	yhdG	Catalyzes the synthesis of dihydrouridine, a modified base found in the D-loop of most tRNAs.
+ECB_02667	4	recD	Exhibits several catalytic activities, including ATP-dependent exonuclease, ATP-stimulated endonuclease, ATP-dependent unwinding and DNA-dependent ATPase activities. Strand cleavage occurs 5' to 3' during the unwinding of duplex DNA at CHI sequences, which locally stimulate recombination.
+ECB_00064	4	araA	Catalyzes the conversion of L-arabinose to L-ribulose.
+ECB_03208	2	crp		Catabolite gene activator: This protein complexes with cyclic AMP and binds to specific DNA sites near the promoter to regulate the transcription of several catabolite-sensitive operons. The protein induces a severe bend in the DNA. Acts as a negative regulator of its own synthesis.
+ECB_03507	3	spoT	In eubacteria ppGpp (guanosine 3'-diphosphate 5-' diphosphate) is a mediator of the stringent response that coordinates a variety of cellular activities in response to changes in nutritional abundance. This enzyme catalyzes both the synthesis and degradation of ppGpp. The second messengers ppGpp and c-di-GMP together control biofilm formation in response to translational stress; ppGpp represses biofilm formation while c-di-GMP induces it.
+ECB_01091	2	fabF	Catalyzes the condensation reaction of fatty acid synthesis by the addition to an acyl acceptor of two carbons from malonyl-ACP. Has a preference for short chain acid substrates and may function to supply the octanoic substrates for lipoic acid biosynthesis.
+ECB_02239	2	dedD	Unknown
+ECB_01080	2	rne	Matures 5S rRNA from its precursors from all the rRNA genes. It also cleaves RNA I, a molecule that controls the replication of colE1 plasmid DNA. It is the major endoribonuclease participating in mRNA turnover in E.coli. It initiates the decay of RNAs by cutting them internally near their 5'-end. It is able to remove poly(A) tails by an endonucleolytic process.

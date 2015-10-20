@@ -1,0 +1,6 @@
+>lcl|NC_012967.1_cdsid_YP_003045538.1 [gene=cchB] [protein=putative carboxysome structural protein, ethanolamine utilization protein] [protein_id=YP_003045538.1] [location=complement(2492592..2492879)]
+MKLAVVTGQIVCTVRHHGLAHDKLLMVEMIDPQGNPDGQCAVAIDNIGAGTGEWVLLVSGSSARQAHKSE
+TSPVDLCVIGIVDEVVSGGQVIFHK
+>lcl|NC_003197.1_cdsid_NP_461399.2 [gene=eutN] [protein=microcompartment shell protein EutN] [protein_id=NP_461399.2] [location=complement(2574812..2575099)]
+MKLAVVTGQIVCTVRHQGLAHDKLLMVEMIDAQGNPDGQCAVAIDSIGAGTGEWVLLVSGSSARQAHRSE
+LSPVDLCVIGIVDEVVAGGKVVFHK

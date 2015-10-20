@@ -1,0 +1,4 @@
+>lcl|NC_012967.1_cdsid_YP_003046373.1 [gene=bfd] [protein=bacterioferritin-associated ferredoxin] [protein_id=YP_003046373.1] [location=complement(3394702..3394896)]
+MYVCLCNGISDKKIRQAVRQFSPHSFQQLKKFIPVGNQCGKCVRAAREVMEDELMQLPEFKESA
+>lcl|NC_003197.1_cdsid_NP_462348.1 [gene=bfd] [protein=bacterioferritin-associated ferredoxin] [protein_id=NP_462348.1] [location=complement(3597923..3598117)]
+MYVCLCNGISDKKIRQAVRQFHPQSFQQLRKFIPVGNQCGKCIRAAREVMQDELTQMPEFKEIA

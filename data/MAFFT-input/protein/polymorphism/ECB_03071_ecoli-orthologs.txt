@@ -1,0 +1,180 @@
+>lcl|NC_000913.2_cdsid_NP_417673.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=NP_417673.1] [location=3345988..3346260]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_002655.2_cdsid_NP_289780.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=NP_289780.1] [location=4157535..4157807]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_002695.1_cdsid_NP_312112.1 [gene=ECs4085] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=NP_312112.1] [location=4090319..4090591]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_004431.1_cdsid_NP_755832.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=NP_755832.1] [location=3781459..3781731]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_007779.1_cdsid_YP_491391.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_491391.1] [location=3347821..3348093]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_007946.1_cdsid_YP_542617.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_542617.1] [location=3567644..3567916]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_008253.1_cdsid_YP_671177.1 [gene=ECP_3294] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_671177.1] [location=3458273..3458545]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_008563.1_cdsid_YP_858821.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_858821.1] [location=3640556..3640828]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_009800.1_cdsid_YP_001460008.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_001460008.1] [location=3398893..3399165]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_009801.1_cdsid_YP_001464684.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_001464684.1] [location=3685123..3685395]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_010468.1_cdsid_YP_001723498.1 [gene=EcolC_0494] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_001723498.1] [location=complement(540121..540393)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_010473.1_cdsid_YP_001732060.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_001732060.1] [location=3443733..3444005]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_010498.1_cdsid_YP_001745478.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_001745478.1] [location=3574579..3574851]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011353.1_cdsid_YP_002272676.1 [gene=ptsO] [protein=PTS system phosphohistidinoprotein-hexose phosphotransferase Npr] [protein_id=YP_002272676.1] [location=4192086..4192358]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011415.1_cdsid_YP_002294765.1 [gene=ECSE_3490] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002294765.1] [location=3618054..3618326]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011601.1_cdsid_YP_002330953.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002330953.1] [location=3626105..3626377]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011741.1_cdsid_YP_002388689.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002388689.1] [location=3436491..3436763]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011742.1_cdsid_YP_002393189.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002393189.1] [location=3555348..3555620]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011745.1_cdsid_YP_002399708.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002399708.1] [location=3790511..3790783]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVESTGP
+QEEEALAAVIALFNSGFDEN
+>lcl|NC_011748.1_cdsid_YP_002404578.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002404578.1] [location=3705213..3705485]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011750.1_cdsid_YP_002409604.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002409604.1] [location=3857585..3857857]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011751.1_cdsid_YP_002414345.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002414345.1] [location=3801020..3801292]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_011993.1_cdsid_YP_002558057.1 [gene=npr] [protein=Phosphocarrier protein NPr] [protein_id=YP_002558057.1] [location=3391645..3391917]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_012759.1_cdsid_YP_002928104.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_002928104.1] [location=3233136..3233408]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_012892.2_cdsid_YP_003000780.1 [gene=npr] [protein=phosphocarrier protein HPr-like NPr, nitrogen related, exchanges phosphate with Enzyme I, Hpr] [protein_id=YP_003000780.1] [location=3216460..3216732]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_012947.1_cdsid_YP_003034791.1 [gene=ECBD_0536] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_003034791.1] [location=complement(557066..557338)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_012967.1_cdsid_YP_003046256.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_003046256.1] [location=3283201..3283473]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_012971.2_cdsid_YP_003055646.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_003055646.1] [location=3216466..3216738]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_013008.1_cdsid_YP_003079992.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_003079992.1] [location=4148127..4148399]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_013353.1_cdsid_YP_003223797.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system] [protein_id=YP_003223797.1] [location=4032037..4032309]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_013361.1_cdsid_YP_003231224.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_003231224.1] [location=4278078..4278350]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_013364.1_cdsid_YP_003236359.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system] [protein_id=YP_003236359.1] [location=4016924..4017196]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_013654.1_cdsid_YP_003351028.1 [gene=ECSF_3038] [protein=phosphocarrier protein NPr] [protein_id=YP_003351028.1] [location=3308581..3308853]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_013941.1_cdsid_YP_003501398.1 [gene=npr] [protein=phosphocarrier protein NPr] [protein_id=YP_003501398.1] [location=3979004..3979276]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_016902.1_cdsid_YP_005276232.1 [gene=EKO11_0512] [protein=phosphotransferase system, phosphocarrier protein HPr] [protein_id=YP_005276232.1] [location=complement(537849..538121)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017625.1_cdsid_YP_006090478.1 [gene=EcDH1_0501] [protein=phosphocarrier, Hpr family] [protein_id=YP_006090478.1] [location=complement(535526..535798)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017626.1_cdsid_YP_006097784.1 [gene=ptsO] [protein=phosphocarrier protein] [protein_id=YP_006097784.1] [location=3716803..3717075]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017628.1_cdsid_YP_006102738.1 [gene=ptsO] [protein=phosphocarrier protein NPr] [protein_id=YP_006102738.1] [location=3720721..3720993]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017631.1_cdsid_YP_006107605.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006107605.1] [location=3685600..3685872]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017632.1_cdsid_YP_006109011.1 [gene=UM146_00350] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006109011.1] [location=complement(74529..74801)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017633.1_cdsid_YP_006117012.1 [gene=ETEC_3471] [protein=phosphocarrier protein] [protein_id=YP_006117012.1] [location=3740964..3741236]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017634.1_cdsid_YP_006121524.1 [gene=NRG857_15900] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006121524.1] [location=3365875..3366147]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017635.1_cdsid_YP_006126081.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system] [protein_id=YP_006126081.1] [location=3567952..3568224]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017638.1_cdsid_YP_006130496.1 [gene=npr] [protein=phosphocarrier protein NPr] [protein_id=YP_006130496.1] [location=3325872..3326144]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017641.1_cdsid_YP_006135660.1 [gene=UMNK88_3968] [protein=hypothetical protein] [protein_id=YP_006135660.1] [location=3836618..3836890]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017644.1_cdsid_YP_006140399.1 [gene=ECNA114_3285] [protein=Putative phosphocarrier protein] [protein_id=YP_006140399.1] [location=3365165..3365485]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQPVHRKRKP
+WPPLSPSLTLVLMKINLHHFDIQIPSSSPGNKKSAY
+>lcl|NC_017646.1_cdsid_YP_006145740.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006145740.1] [location=3805448..3805720]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017651.1_cdsid_YP_006150808.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose] [protein_id=YP_006150808.1] [location=3652272..3652544]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017652.1_cdsid_YP_006155727.1 [gene=ptsO] [protein=phosphohistidinoprotein-hexose] [protein_id=YP_006155727.1] [location=3652272..3652544]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017656.1_cdsid_YP_006160866.1 [gene=ECO55CA74_18760] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006160866.1] [location=3887487..3887759]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017660.1_cdsid_YP_006163663.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006163663.1] [location=complement(1421108..1421380)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017663.1_cdsid_YP_006170319.1 [gene=ptsO] [protein=Phosphocarrier protein NPr] [protein_id=YP_006170319.1] [location=3626755..3627027]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017664.1_cdsid_YP_006174834.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006174834.1] [location=3564536..3564808]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_017906.1_cdsid_YP_006314692.1 [gene=CDCO157_3826] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system (Npr)] [protein_id=YP_006314692.1] [location=4017579..4017851]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_018650.1_cdsid_YP_006768270.1 [gene=O3M_02955] [protein=PTS system phosphohistidinoprotein-hexose phosphotransferase Npr] [protein_id=YP_006768270.1] [location=complement(602327..602599)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_018658.1_cdsid_YP_006777312.1 [gene=O3K_02910] [protein=PTS system phosphohistidinoprotein-hexose phosphotransferase Npr] [protein_id=YP_006777312.1] [location=complement(597699..597971)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_018661.1_cdsid_YP_006782377.1 [gene=O3O_22735] [protein=PTS system phosphohistidinoprotein-hexose phosphotransferase Npr] [protein_id=YP_006782377.1] [location=complement(590997..591269)]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_020163.1_cdsid_YP_007383135.1 [gene=APECO78_19870] [protein=PTS system phosphohistidinoprotein-hexose phosphotransferase Npr] [protein_id=YP_007383135.1] [location=4116709..4116981]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_020518.1_cdsid_YP_007558243.1 [gene=npr] [protein=phosphohistidinoprotein-hexose phosphotransferase component of N-regulated PTS system] [protein_id=YP_007558243.1] [location=2821299..2821571]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED
+>lcl|NC_022364.1_cdsid_YP_008566372.1 [gene=LY180_16555] [protein=phosphohistidinoprotein-hexose phosphotransferase] [protein_id=YP_008566372.1] [location=3476789..3477061]
+MTVKQTVEITNKLGMHARPAMKLFELMQGFDAEVLLRNDEGTEAEANSVIALLMLDSAKGRQIEVEATGP
+QEEEALAAVIALFNSGFDED

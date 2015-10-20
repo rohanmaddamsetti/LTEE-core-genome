@@ -1,0 +1,6 @@
+>lcl|NC_012967.1_cdsid_YP_003045539.1 [gene=cchA] [protein=putative carboxysome structural protein, ethanolamine utilization protein] [protein_id=YP_003045539.1] [location=complement(2492986..2493279)]
+MEALGMIETRGLVALIEASDAMVKAARVKLVGVKQIGGGLCTAMVRGDVAACKAATDAGAAAAQRIGELV
+SVHVIPRPHGDLEEVFPIGLKGDSSNL
+>lcl|NC_003197.1_cdsid_NP_461400.1 [gene=eutM] [protein=carboxysome structural protein EutM] [protein_id=NP_461400.1] [location=complement(2575212..2575502)]
+MEALGMIETRGLVALIEASDAMVKAARVKLVGVKQIGGGLCTAMVRGDVAACKAATDAGAAAAQRIGELV
+SVHVIPRPHGDLEEVFPISFKGDSNI

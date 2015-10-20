@@ -1,0 +1,6 @@
+>lcl|NC_012967.1_cdsid_YP_003045327.1 [gene=napD] [protein=assembly protein for periplasmic nitrate reductase] [protein_id=YP_003045327.1] [location=complement(2252739..2253002)]
+MHTNWQVCSLVVQAKSERISDISTQLNAFPGCEVAVSDAPSGQLIVVVEAEDSETLIQTIESVRNVEGVL
+AVSLVYHQQEEQGEETP
+>lcl|NC_003197.1_cdsid_NP_461203.1 [gene=napD] [protein=periplasmic nitrate reductase assembly protein] [protein_id=NP_461203.1] [location=complement(2358901..2359164)]
+MRTNWQVCSLVVQAKSQNIAAIGTQLNTLPGCEVALSDVESGQLIVVAEADQSETLMQTIESVRNVEGVL
+AVSLVYHQQDEQGEETP

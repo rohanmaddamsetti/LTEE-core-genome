@@ -1,0 +1,4 @@
+>lcl|NC_012967.1_cdsid_YP_003046398.1 [gene=yhfG] [protein=hypothetical protein] [protein_id=YP_003046398.1] [location=complement(3419358..3419525)]
+MKKLTDKQKSRLWELQRNRNFQASRRLEGVEMPLVTLTAAEALARLEELRRHYGR
+>lcl|NC_003197.1_cdsid_NP_462374.1 [gene=STM3471] [protein=hypothetical protein] [protein_id=NP_462374.1] [location=complement(3620946..3621113)]
+MKKLTDKQKSRFWEQRRNVNFQQSRRLEGIEIPLVTLTADEALVRLDELRRHYER

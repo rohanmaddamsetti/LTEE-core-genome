@@ -1,0 +1,4 @@
+>lcl|NC_012967.1_cdsid_YP_003046104.1 [gene=glgS] [protein=glycogen synthesis protein GlgS] [protein_id=YP_003046104.1] [location=complement(3124575..3124775)]
+MDHSLNSLNNFDFLARSFARMHAEGRPVDILAVTGNMDEEHRTWFCARYAWYCQQMMQARELELEH
+>lcl|NC_003197.1_cdsid_NP_462112.1 [gene=glgS] [protein=glycogen synthesis protein GlgS] [protein_id=NP_462112.1] [location=complement(3359314..3359523)]
+MLMNNNNVYSLNNFDFLARSFARMQAEGRPVDIQAVTGNMDEEHRDWFCKRYALYCQQATQAKRLELEH
