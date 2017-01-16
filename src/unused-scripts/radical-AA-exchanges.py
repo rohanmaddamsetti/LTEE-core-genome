@@ -6,6 +6,9 @@
 ## nonsynonymous mutation that evolves in parallel.
 ## The araA marker is at position 70867, and is a T->C D92G mutation.
 
+## IMPORTANT: This script ignores a recD secondary mutation found in Ara+ lineages
+## (this mutation occurs in REL607 and its descendants).
+
 
 from __future__ import division
 from os import listdir
@@ -43,6 +46,9 @@ def make_dN_list(diff_directory):
         for line in cur_handle:
             ## check if mutation is araA marker--if so, skip.
             if "gene_name=araA" in line and "aa_position=92" in line and "snp_type=nonsynonymous" in line:
+                continue
+            ## check if mutation is recD secondary mutation in 607--if so, skip.
+            if "gene_name=recD" in line and "aa_position=10" in line and "snp_type=nonsynonymous" in line:
                 continue
             if line.startswith("SNP") and "snp_type=nonsynonymous" in line:
                 nonsynonymous_count = nonsynonymous_count + 1

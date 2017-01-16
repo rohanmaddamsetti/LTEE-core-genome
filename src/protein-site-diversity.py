@@ -4,15 +4,18 @@
 
 ## Usage: python protein-site-diversity.py > ../results/protein-site-diversity.csv
 
+## OR python protein-site-diversity.py > ../results/protein-site-divergence.csv
+## when calculating from Salmonella data. Be sure to check main before running to
+## comment out/run the proper function calls.
+
 # Make a list of dN in non-mutators:
 # [gene, codon, genome]
 
-# For each dN:
-# look up the omega point estimate at that site.
-# calculate the mean omega over the whole gene.
+## IMPORTANT: This script ignores the araA marker mutation so that it isn't spuriously analyzed## as a  nonsynonymous mutation that evolves in parallel.
+## The araA marker is at position 70867, and is a T->C D92G mutation.
 
-# print [gene, codon, genome, codon_omega, gene_omega] to a csv file.
-# analyze with R.
+## IMPORTANT TOO: This script ignores a recD secondary mutation found in Ara+ lineages
+## (this mutation occurs in REL607 and its descendants).
 
 
 from __future__ import division
@@ -27,14 +30,19 @@ from pprint import pprint
 
 def make_dN_dict(diff_directory):
     dN_dict = {}
-    for diff in listdir(diff_directory):
+    for diff in [x for x in listdir(diff_directory) if x.endswith('.gd')]:
         cur_path = os.path.join(diff_directory, diff)
         cur_handle = open(cur_path)
         genome = diff.partition(".")[0]
-        #print genome
         nonsynonymous_count = 0
         for line in cur_handle:
             if line.startswith("SNP"):
+                ## check if mutation is araA marker--if so, skip.
+                if "gene_name=araA" in line and "aa_position=92" in line and "snp_type=nonsynonymous" in line:
+                    continue
+                ## check if mutation is recD secondary mutation in 607--if so, skip.
+                if "gene_name=recD" in line and "aa_position=10" in line and "snp_type=nonsynonymous" in line:
+                    continue
                 if "snp_type=nonsynonymous" in line:
                     nonsynonymous_count = nonsynonymous_count + 1
                     fields = line.split("\t")
@@ -54,23 +62,27 @@ def make_dN_dict(diff_directory):
                             "locus_tag":locus_tag,
                             "gene_name":gene_name,
                             "aa_position":{aa_position},
-                            "LTEE_dN":1 
+                            "LTEE_dN":1
                         }
     return dN_dict
 
-def calculate_protein_site_diversity(dN_dict):
+def calculate_protein_site_diversity(dN_dict,diverge=False):
     '''Calculate Nei's nucleotide diversity, modified for peptide sequences. This function
     runs through proteins that evolved in the LTEE, and calculates diversity at those
     amino acid positions that mutated and diversity at the rest of the protein.
     Are the sites that mutated in the LTEE more or less variable than the rest of the protein
     in nature? '''
     folder1="protein"
-    pattern = '^(.+)_ecoli-orthologs'
-    folder2 = "polymorphism"
+    if diverge == False:
+        pattern = '^(.+)_ecoli-orthologs'
+        folder2 = "15-genomes-polymorphism"
+    elif diverge == True:
+        pattern = '^(.+)_ecoli-salmonella_prot'
+        folder2 = "divergence"
 
-    localdir = "/Users/Rohandinho/Desktop/Projects/LTEE-core-genome/"    
+    localdir = "/Users/Rohandinho/Desktop/Projects/LTEE-core-genome/"
     alignments_dir = os.path.join(localdir, "results/MAFFT-output/", folder1, folder2)
-    print "locus_tag, mutated_site_diversity, rest_protein_diversity, gene_name, LTEE_dN"
+    print("locus_tag, mutated_site_diversity, rest_protein_diversity, gene_name, LTEE_dN")
     for in_aln in listdir(alignments_dir):
         if in_aln.startswith('ECB'):
             filename = in_aln.partition('.')[0]
@@ -104,16 +116,15 @@ def calculate_protein_site_diversity(dN_dict):
                 d_denominator = n*(n-1)/2 # number of comparisons is n choose 2.
                 mutated_site_diversity = mutated_site_diversity/d_denominator
                 rest_protein_diversity = rest_protein_diversity/d_denominator
-                print ','.join([locus_tag, str(mutated_site_diversity), str(rest_protein_diversity), dN_dict[locus_tag]["gene_name"], str(dN_dict[locus_tag]["LTEE_dN"])])
+                print(','.join([locus_tag, str(mutated_site_diversity), str(rest_protein_diversity), dN_dict[locus_tag]["gene_name"], str(dN_dict[locus_tag]["LTEE_dN"])]))
 
 
 def main():
     proj_dir = "/Users/Rohandinho/Desktop/Projects/LTEE-core-genome/"
-    diff_dir = proj_dir + "data/annotated_non-mutator_40K_diffs"
+    diff_dir = proj_dir + "data/annotated_non-mutator_50K_diffs"
     dN_dict = make_dN_dict(diff_dir)
-    calculate_protein_site_diversity(dN_dict)
-    
-
+    #calculate_protein_site_diversity(dN_dict,diverge=False)
+    calculate_protein_site_diversity(dN_dict,diverge=True)
 
 
 main()

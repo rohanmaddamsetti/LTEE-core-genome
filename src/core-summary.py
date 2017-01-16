@@ -6,7 +6,7 @@
 ## as being either panorthologs or not, based on the analysis that
 ## Phil Hatcher ran for me.
 
-## Unfortunately, this script uses two difference reference genbank files:
+## Unfortunately, this script uses two different reference genbank files:
 ## the REL606 found in genbank (NCBI-REL606.gbk), and the reference
 ## used to generate the newest set of genomediffs from the LTEE
 ## (REL606.6.gbk).
@@ -18,7 +18,8 @@ from Bio import SeqIO
 def main():
     
     core_genes = []
-    f1 = open("../data/hatcher-results/remainingGenes.txt")
+    f1 = open("../data/15-genomes-hatcher-results/remainingGenes.15.txt")
+    #f1 = open("../data/60-genomes-hatcher-results/remainingGenes.txt")
     for line in f1:
         core_genes.append(line.strip())
     f1.close()
@@ -53,21 +54,22 @@ def main():
                 gene_total = gene_total + 1
                 cur_protein_id = feat.qualifiers['protein_id'][0]
                 cur_locus_tag = feat.qualifiers['locus_tag'][0]
+                cur_start_pos = str(feat.location.start+1)
                 cur_length = abs(int(feat.location.start) - int(feat.location.end))
                 try:
                     cur_note = locus_hash[cur_locus_tag]
                 except KeyError:
                     continue
                 if cur_protein_id in core_genes:
-                    gene_hash[cur_protein_id] = (cur_locus_tag, cur_note, cur_length,"TRUE")
+                    gene_hash[cur_protein_id] = (cur_locus_tag, cur_note, cur_start_pos, cur_length,"TRUE")
                 else:
-                    gene_hash[cur_protein_id] = (cur_locus_tag, cur_note, cur_length,"FALSE")
+                    gene_hash[cur_protein_id] = (cur_locus_tag, cur_note, cur_start_pos, cur_length,"FALSE")
 
-    header = ["Protein_id", "locus_tag", "note", "length", "panortholog"]
-    print ",".join(header)
+    header = ["Protein_id", "locus_tag", "note", "Start position", "length", "panortholog"]
+    print(",".join(header))
     for k in sorted(gene_hash.keys()):
         row = [k] + list(gene_hash[k])
-        print ",".join(str(v) for v in row)
+        print(",".join(str(v) for v in row))
 
 if __name__ == "__main__":
     main()

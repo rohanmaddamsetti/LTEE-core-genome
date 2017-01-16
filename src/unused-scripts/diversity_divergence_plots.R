@@ -14,26 +14,26 @@ library(ggplot2)
 
 plot.diversity <- function(diverge=TRUE) {
   if (diverge == TRUE) {
-    fname <- "ecoli-salmonella-protein-diversity"
+    fname <- "Figure-2"
     differences <- "../results/ecoli-salmonella-protein-diversity.csv"
   } else {
-    fname <- "ecoli-protein-diversity"
+    fname <- "Figure-1"
     differences <- "../results/ecoli-protein-diversity.csv"
   }
-    
+
   diversity.data <- read.csv(differences)
 
     ## count the number of lineages with at least one dN per locus.
-  ltee.40K.mutations <- read.csv("../results/ltee_mutations_40K.csv")
-  non.mutator.data <- subset(ltee.40K.mutations,ltee.40K.mutations$mutator==FALSE)
+  ltee.mutations <- read.csv("../results/ltee_mutations.csv")
+  non.mutator.data <- subset(ltee.mutations,ltee.mutations$mutator==FALSE)
   non.mutator.data$lineage <- sapply(non.mutator.data$genome,function(x) substr(x,1,5))
-  
+
   hits.data <- non.mutator.data
   hits.data$genome <- NULL
   hits.data$mutator <- NULL
   hits.data$dS <- NULL
   hits.data <- hits.data[hits.data$dN>0,]
-  
+
   locus <- unique(hits.data$locus_tag)
   hits <- rep(0,length(locus))
   for (i in 1:length(locus)) {
@@ -42,14 +42,15 @@ plot.diversity <- function(diverge=TRUE) {
       hit.lineages <- length(unique(cur.hits$lineage))
       hits[i] <- hit.lineages
     }
-    
-  final.hits <- data.frame(locus_tag=locus,lineages=hits)
-  
-  final.data <- merge(final.hits, diversity.data, all=TRUE)
-  final.data$lineages <- sapply(final.data$lineages, function(x) ifelse(is.na(x),0,x))
 
-### some data is missing (should be mutations outside of panorthologs):
-  problems <- final.data[is.na(final.data$diversity),]
+  final.hits <- data.frame(locus_tag=locus,lineages=hits)
+
+  ## we want to only merge genes found in diversity.data (i.e. panorthologs).
+  ## so merge all genes, and then
+  final.data <- merge(diversity.data,final.hits,all=TRUE)
+  final.data$lineages <- sapply(final.data$lineages, function(x) ifelse(is.na(x),0,x))
+  ## remove locus_tags that are not in diversity.data.
+  final.data <- final.data[final.data$locus_tag %in% diversity.data$locus_tag,]
 
 ###### Figure part A. Mann-Whitney test between 0s and 1-6s.
   A.data <- final.data
@@ -91,16 +92,16 @@ plot.diversity <- function(diverge=TRUE) {
 
   y.max <- max(final.data$diversity, na.rm=TRUE)
   y.max <- y.max + 0.1*y.max  ## so the numerical labels don't fall off the panel.
-  
+
   ## graph with box plots.
-  
+
   B.plot <- ggplot(B.data, aes(x=factor(lineages), diversity)) + geom_boxplot() + scale_x_discrete("Number of lineages with non-synonymous mutations") + geom_text(data = labelz, aes(x=factor(lineages), y=ordinate, label=paste("N =", counts)), hjust=-0.3, size=3) + ylim(0,y.max) + theme_classic()
 
   B.plot + coord_flip()
   ggsave(paste0("/Users/Rohandinho/Desktop/", fname,"-B",".pdf"))
   cor.test(x=B.data$lineages, y=B.data$diversity,method="spearman",exact=FALSE)
 
-  
+
 ############################## Figure part C. make diversity plot.
   C.data <- final.data
 ## add numerical labels to the lineage categories.
@@ -113,11 +114,11 @@ plot.diversity <- function(diverge=TRUE) {
 
   y.max <- max(final.data$diversity, na.rm=TRUE)
   y.max <- y.max + 0.1*y.max  ## so the numerical labels don't fall off the panel.
-  
+
   ## graph with box plots.
-  
+
   C.plot <- ggplot(C.data, aes(x=factor(lineages), diversity)) + geom_boxplot() + scale_x_discrete("Number of lineages with non-synonymous mutations") + geom_text(data = labelz, aes(x=factor(lineages), y=ordinate, label=paste("N =", counts)), hjust=-0.3, size=3) + ylim(0,y.max) + theme_classic()
-  
+
   C.plot + coord_flip()
 
   ggsave(paste0("/Users/Rohandinho/Desktop/", fname,"-C",".pdf"))
@@ -126,7 +127,7 @@ plot.diversity <- function(diverge=TRUE) {
 }
 
 ##################################
-   
+
 
 ## analyze E. coli-Salmonella divergence.
 plot.diversity(diverge=TRUE)

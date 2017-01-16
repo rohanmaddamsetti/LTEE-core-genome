@@ -31,7 +31,9 @@ def make_alignments(file_of_fasta_sequences, aln_type="divergence", datatype="DN
         outputdir = os.path.join(outputdir,"protein",aln_type)
     filename, sep, ext = os.path.basename(file_of_fasta_sequences).partition('.')
     outfile = os.path.join(outputdir,filename+".aln")
-    my_cmd = ' '.join(['mafft-linsi', file_of_fasta_sequences, '>', outfile])
+    ## the --anysymbol flag is to handle proteins containing selenocysteine (U).
+    ## in this project, this only occurs with ECB_03951.
+    my_cmd = ' '.join(['mafft-linsi', '--anysymbol', file_of_fasta_sequences, '>', outfile])
     #print "command is: ", my_cmd
     p = subprocess.Popen(my_cmd, shell=True)
     os.waitpid(p.pid, 0)
@@ -40,15 +42,13 @@ def main():
 
     localdir = "/Users/Rohandinho/Desktop/Projects/LTEE-core-genome/"
 
-    for f in listdir(localdir+"data/MAFFT-input/protein/divergence/"):
-    #    print f
-        fullpath = localdir+"data/MAFFT-input/protein/divergence/"+f
-        make_alignments(fullpath, aln_type="divergence", datatype="Protein")
+    ##for f in listdir(localdir+"data/MAFFT-input/protein/divergence/"):
+    ##    fullpath = localdir+"data/MAFFT-input/protein/divergence/"+f
+     ##   make_alignments(fullpath, aln_type="divergence", datatype="Protein")
 
-    for f in listdir(localdir+"data/MAFFT-input/protein/polymorphism/"):
-    #    print f
-        fullpath = localdir+"data/MAFFT-input/protein/polymorphism/"+f
-        make_alignments(fullpath, aln_type="polymorphism", datatype="Protein")
+    for f in listdir(localdir+"data/MAFFT-input/protein/15-genomes-polymorphism/"):
+        fullpath = localdir+"data/MAFFT-input/protein/15-genomes-polymorphism/"+f
+        make_alignments(fullpath, aln_type="15-genomes-polymorphism", datatype="Protein")
             
 if __name__ == '__main__':
     main()
