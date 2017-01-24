@@ -89,9 +89,15 @@ MOPS24hr.plot
 ## panortholog KOs have worse growth in MOPS after 48 hours: p-value = 3.943e-07
 t.test(panortholog.data$MOPS_48hr_OD600, nonpanortholog.data$MOPS_48hr_OD600, alternative=c("less"))
 
-## compare essentiality and growth KEIO data with G-scores.
-
-final.data2 <- merge(first.merge, KEIO.data) %>% filter(Observed.nonsynonymous.mutation>1) %>% mutate(possible.KO=(IS.insertion+Short.indel+Large.deletion)>0) %>% arrange(EssentialityScore)
+## compare essentiality against G-scores.
+## Add an asterisk to the name of genes that that parallel mutations at the AA level:
+asterisk.these <- factor(c('atoC','hflB','rpsD','infC','nadR','pykF','yijC','rplF','infB','spoT'))
+final.data2 <- merge(first.merge, KEIO.data) %>%
+    filter(Observed.nonsynonymous.mutation>1) %>%
+    mutate(possible.KO=(IS.insertion+Short.indel+Large.deletion)>0) %>%
+    arrange(EssentialityScore) %>% ## next line adds the asterisk.
+    mutate(Gene.name = as.character(Gene.name)) %>%
+    mutate(Gene.name=ifelse(Gene.name %in% asterisk.these,paste('***',Gene.name),Gene.name))
 
 my.lab <- expression(paste('log(',italic('G'),' score + 1)'))
 

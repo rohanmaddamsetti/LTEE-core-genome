@@ -6,7 +6,7 @@ Uses mafft-linsi to align orthologous proteins among the 60 sampled E. coli
 and align orthologous proteins between REL606 and S. typhimurium LT2.
 
 This will be used as input for calculate-divergence.py to:
-1) Count the number of sites that have diverged between REL606 and Salmonella 
+1) Count the number of sites that have diverged between REL606 and Salmonella
    in each ortholog.
 2) Count the number of polymorphic sites in each panortholog.
 
@@ -16,7 +16,7 @@ from os import listdir, rename, getcwd, remove
 import os.path
 from sys import stdout, exit
 import subprocess
-            
+
 def make_alignments(file_of_fasta_sequences, aln_type="divergence", datatype="DNA"):
     '''Input: a FASTA file with the FASTA sequences of gene sequences.
     Output: one file of the aligned genes, one file that contains the gene tree,
@@ -42,14 +42,22 @@ def main():
 
     localdir = "/Users/Rohandinho/Desktop/Projects/LTEE-core-genome/"
 
-    ##for f in listdir(localdir+"data/MAFFT-input/protein/divergence/"):
-    ##    fullpath = localdir+"data/MAFFT-input/protein/divergence/"+f
-     ##   make_alignments(fullpath, aln_type="divergence", datatype="Protein")
+    for f in listdir(localdir+"data/MAFFT-input/protein/divergence/"):
+        fullpath = localdir+"data/MAFFT-input/protein/divergence/"+f
+        make_alignments(fullpath, aln_type="divergence", datatype="Protein")
 
     for f in listdir(localdir+"data/MAFFT-input/protein/15-genomes-polymorphism/"):
         fullpath = localdir+"data/MAFFT-input/protein/15-genomes-polymorphism/"+f
         make_alignments(fullpath, aln_type="15-genomes-polymorphism", datatype="Protein")
-            
+
+    for f in listdir(localdir+"data/MAFFT-input/protein/60-genomes-polymorphism/"):
+        fullpath = localdir+"data/MAFFT-input/protein/60-genomes-polymorphism/"+f
+        make_alignments(fullpath, aln_type="60-genomes-polymorphism", datatype="Protein")
+
+    for f in listdir(localdir+"data/tree-MAFFT-input/"):
+        fullpath = localdir+"data/tree-MAFFT-input/"+f
+        make_alignments(fullpath, aln_type="tree", datatype="Protein")
+
 if __name__ == '__main__':
     main()
 
