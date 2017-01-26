@@ -28,13 +28,13 @@ core.point.mutation.analysis <- function(data.table, do.dS=FALSE) {
         print(core.dS)
         print("noncore.dS")
         print(noncore.dS)
-        binom.test(c(core.dS,noncore.dS),p=expected.p)
+        binom.test(c(core.dS,noncore.dS),p=expected.p,alternative="two.sided")
     } else {
         print("core dN:")
         print(core.dN)
         print("noncore.dN")
         print(noncore.dN)
-        binom.test(c(core.dN,noncore.dN),p=expected.p)
+        binom.test(c(core.dN,noncore.dN),p=expected.p,alternative="two.sided")
        }
 }
 

@@ -147,7 +147,16 @@ def main():
     def layout(node):
         ## modify text by adding attributes to nodes.
         if node.is_leaf():
-            faces.add_face_to_node(AttrFace("name",ftype="Arial",text_prefix=" ",fstyle="italic"),node,column=0)
+            if node.name.startswith("Ara"): # then no italic, just plain.
+                faces.add_face_to_node(AttrFace("name",ftype="Arial",text_prefix=" "),node,column=0)
+            else:
+                y = node.name.split(" ")
+                z1 = " ".join(y[:2])
+                z2 = " ".join(y[2:])
+                node.add_feature("species",z1)
+                node.add_feature("strain",z2)
+                faces.add_face_to_node(AttrFace("species",ftype="Arial",text_prefix=" ",fstyle="italic"),node,column=0)
+                faces.add_face_to_node(AttrFace("strain",ftype="Arial",text_prefix=" ",fstyle="normal"),node,column=1)
 
     ts = TreeStyle()
     ts.show_leaf_name = False
@@ -158,7 +167,7 @@ def main():
     ts.margin_right=10
     ts.layout_fn = layout
 
-    tree.render("/Users/Rohandinho/Desktop/tree.pdf",tree_style=ts)
+    tree.render("/Users/Rohandinho/Desktop/tree.pdf",tree_style=ts,h=7,units="in")
 
     print(LTEE_dN_dict)
     ## print distance between REL606 and K-12 as a comparison. (it's 2938.705293.)

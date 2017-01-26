@@ -90,18 +90,18 @@ MOPS24hr.plot
 t.test(panortholog.data$MOPS_48hr_OD600, nonpanortholog.data$MOPS_48hr_OD600, alternative=c("less"))
 
 ## compare essentiality against G-scores.
-## Add an asterisk to the name of genes that that parallel mutations at the AA level:
-asterisk.these <- factor(c('atoC','hflB','rpsD','infC','nadR','pykF','yijC','rplF','infB','spoT'))
+## bold the name of genes that that parallel mutations at the AA level:
+bold.these <- factor(c('atoC','hflB','rpsD','infC','nadR','pykF','yijC','rplF','infB','spoT'))
 final.data2 <- merge(first.merge, KEIO.data) %>%
     filter(Observed.nonsynonymous.mutation>1) %>%
     mutate(possible.KO=(IS.insertion+Short.indel+Large.deletion)>0) %>%
     arrange(EssentialityScore) %>% ## next line adds the asterisk.
     mutate(Gene.name = as.character(Gene.name)) %>%
-    mutate(Gene.name=ifelse(Gene.name %in% asterisk.these,paste('***',Gene.name),Gene.name))
+    mutate(bold.please=ifelse(Gene.name %in% bold.these,TRUE,FALSE))
 
 my.lab <- expression(paste('log(',italic('G'),' score + 1)'))
 
-essentiality.G.score.plot <- ggplot(data=final.data2,aes(x=EssentialityScore,y=log10(G.score+1),shape=panortholog)) + geom_point(size=1) + scale_y_continuous(breaks=seq(0,2,by=0.5)) + scale_x_continuous(breaks=seq(-4,4,by=1)) + geom_text_repel(aes(label=Gene.name,colour=possible.KO,fontface='italic'), segment.size=0.1,size=2.5,angle=45) + scale_colour_manual(values=c("purple", "green4")) + theme_classic() + ylab(my.lab) + xlab("KEIO Essentiality Score") + theme(legend.position="none")
+essentiality.G.score.plot <- ggplot(data=final.data2, aes(x=EssentialityScore,y=log10(G.score+1),shape=panortholog)) + geom_point(size=1) + scale_y_continuous(breaks=seq(0,2,by=0.5)) + scale_x_continuous(breaks=seq(-4,4,by=1)) + geom_text_repel(aes(label=Gene.name,colour=possible.KO,fontface=ifelse(bold.please,'bold.italic','italic')), segment.size=0.1,size=3.5) + scale_colour_manual(values=c("purple", "green4")) + theme_classic() + ylab(my.lab) + xlab("KEIO Essentiality Score") + theme(legend.position="none")
 
 ggsave(filename="~/Desktop/Essentiality_G-score.pdf",plot=essentiality.G.score.plot, width=2*3.25,height=2*3.25,units='in')
 
